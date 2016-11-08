@@ -6,9 +6,9 @@
   <!--remove-project name="platform/build" />
   <project name="AOSP-bacon/platform_build" path="build" remote="github" revision="nougat-dr1">
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+  </project-->
 
-  <!-- frameworks -->
+  <!-- frameworks >
   <remove-project name="platform/frameworks/base" />
   <project name="AOSP-bacon/platform_frameworks_base" path="frameworks/base" remote="github" revision="nougat-dr1" />
 
